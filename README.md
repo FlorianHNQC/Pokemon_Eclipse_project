@@ -58,13 +58,3 @@ locate command line in the root directory of the project where is the package.js
 cd your-path-to-pokemon-essentials
 nw .
 ```
-
-## Discord Server
-
-For any question or futher information, please contact me in the discord server https://discord.gg/eFPUx6m
-
-#(THIS IS THE DISCORD SERVER OF POKEMON ESSENTIALS IT IS NOT RELATED WITH THE PRESENT PROJECT IN ANY WAY)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
