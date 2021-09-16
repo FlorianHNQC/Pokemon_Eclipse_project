@@ -62,6 +62,7 @@ nw .
 ## Discord Server
 
 For any question or futher information, please contact me in the discord server https://discord.gg/eFPUx6m
+#(THIS IS THE DISCORD SERVER OF POKEMON ESSENTIALS IT IS NOT RELATED WITH THE PRESENT PROJECT IN ANY WAY)
 
 ## License
 
