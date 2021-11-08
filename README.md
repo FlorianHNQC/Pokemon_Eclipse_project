@@ -1,4 +1,4 @@
-![logo](Pokemon_Eclipse/Graphics/logo/logo.png)
+![logo](logo.png)
 # Pokemon_Eclipse_project
 
 Based on Pokemon Essentials.
