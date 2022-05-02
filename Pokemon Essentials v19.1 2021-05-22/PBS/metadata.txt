@@ -254,6 +254,9 @@ BattleBack = rocky
 MapSize = 2,11
 Environment = Rock
 #-------------------------------
+[048]
+# Ryota salon
+#-------------------------------
 [049]
 # Rock Cave
 Bicycle = true
