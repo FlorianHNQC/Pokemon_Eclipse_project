@@ -410,3 +410,9 @@ BattleBack = city
 #-------------------------------
 [077]
 # Laboratiore
+#-------------------------------
+[083]
+# road
+Outdoor = true
+Weather = Rain,100
+MapSize = 0,
