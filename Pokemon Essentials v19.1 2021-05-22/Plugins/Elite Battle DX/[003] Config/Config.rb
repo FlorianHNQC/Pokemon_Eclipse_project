@@ -10,7 +10,7 @@ module EliteBattle
   BATTLE_MOTION_TIMER = 90
 
   # used to scale the trainer bitmaps (front sprites) to 200%
-  TRAINER_SPRITE_SCALE = 2
+  TRAINER_SPRITE_SCALE = 1.3
 
   # used to scale the Pokemon bitmaps (front sprites and UI) to 200%
   FRONT_SPRITE_SCALE = 2
@@ -22,7 +22,7 @@ module EliteBattle
   ROOM_SCALE = 2.25
 
   # set this to true to use the low HP bgm when player's Pokemon HP reaches 25%
-  USE_LOW_HP_BGM = false
+  USE_LOW_HP_BGM = true
 
   # set this to true if you want to use your own common animations from the editor
   CUSTOM_COMMON_ANIM = false

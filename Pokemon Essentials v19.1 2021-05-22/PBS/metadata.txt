@@ -1,7 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [000]
-Home = 3,7,5,8
+Home = 43,6,6,8
 WildBattleBGM = Battle wild.mid
 TrainerBattleBGM = Battle trainer.mid
 WildVictoryME = Battle victory wild.ogg
@@ -416,3 +416,7 @@ BattleBack = city
 Outdoor = true
 Weather = Rain,100
 MapSize = 0,
+#-------------------------------
+[084]
+# Sous-sol
+BattleBack = IndoorB
