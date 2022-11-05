@@ -1,5 +1,5 @@
 ![logo](logo.png)
-# Pokemon_Eclipse_project
+# Pokemon Eclipse Project
 
 Based on Pokemon Essentials.
 
