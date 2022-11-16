@@ -1,5 +1,5 @@
 //Baou 
 Zénith (Professeur Pokémon)
-Elenchos (Grec: Controller)
-Ananéosi (Grec: Renouveau)
-Profiteia (Grec: Prédire)
+Elenchos (Grec: Controller, Père)
+Ananéosi (Grec: Renouveau, Partenaire(F) de Elen)
+Profiteia (Grec: Prédire, Partenaire(M) de Elen)
