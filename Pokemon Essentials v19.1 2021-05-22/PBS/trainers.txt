@@ -117,9 +117,9 @@ Pokemon = CHARIZARD,63
 Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
 #-------------------------------
-[DRESSEUSE, Kayo]
+[POKEMON_TRAINER_KAYO, Kayo]
 LoseText = "Je suppose que perdre mon premier combat contre toi n'est pas si grave."
 Pokemon = CHESPIN, 5
-    Moves = GROWL
+    Moves = GROWL,LEER
     AbilityIndex = 1
 #-------------------------------
