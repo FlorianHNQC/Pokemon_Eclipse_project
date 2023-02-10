@@ -76,4 +76,4 @@
 73,POKEMON_TRAINER_REHIO,,60,Think Before You Act - Alhaitham,,,Male,,
 74,POKEMON_TRAINER_KYRIE,,60,,,,Female,,
 75,POKEMON_TRAINER_LILY,,60,,,,Female,,
-76,KAYO,,70,Letter From Ajax,
+76,KAYO,,70,Letter From Ajax,,,Female,,
