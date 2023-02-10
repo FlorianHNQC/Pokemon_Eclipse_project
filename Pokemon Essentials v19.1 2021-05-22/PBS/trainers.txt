@@ -125,4 +125,4 @@ Pokemon = CHESPIN,5
 #-------------------------------
 [REHIO,Rehio]
 LoseText = "Waouh! T'es un cas toi!"
-Pokemon = Mareep,11
+Pokemon = MAREEP,11
