@@ -122,3 +122,7 @@ LoseText = "Je suppose que perdre mon premier combat contre toi n'est pas si gra
 Pokemon = CHESPIN,5
     Moves = GROWL,TACKLE
     AbilityIndex = 1
+#-------------------------------
+[REHIO,Rehio]
+LoseText = "Waouh! T'es un cas toi!"
+Pokemon = Mareep,11

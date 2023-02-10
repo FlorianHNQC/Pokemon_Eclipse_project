@@ -1,0 +1,102 @@
+# This file contains some extra info the generator uses when placing specific trainer types.
+#----------------------------------------------------------------------------------------------------                    
+# Format:
+#
+# <id>,<min level>,<max level>,<class>
+#
+# <id> - should match the trainer's ID in PBS/trainertypes.txt
+#
+# <min level> - the minimum level area/route that this trainer can appear on. Default 1.
+#
+# <max level> - the maximum level area/route that this rainer can appear on. Default 100.
+#
+# <class> - The type of trainer. Valid options:
+#	TRAINER - The basic kind of trainer. Will be placed randomly on routes (must have trainerpokemon.txt data)
+#	SWIMMING - A swimming trainer which is placed on water. (must have trainerpokemon.txt data)
+#	DOUBLE - A trainer type for double battles. These are not yet placed anywhere by the generator.
+#	LEADER - Not yet generated, but will be used for Gym Leaders.
+#	ELITEFOUR - Not yet generated, but will be used for Elite Four members.
+#	CHAMPION - Not yet generated, but will be used for the Champion battle.
+#	RIVAL - Designates the Rival(s). Not currently used.
+#	PROFESSOR - Designates the Professor(s). Not currently used.
+#	GRUNT - Designates Grunts for any antagonistic team or group. Not currently used.
+#	BOSS - Leader of any antagonistic team or group. Not currently used.
+#	PLAYER - Any trainer type just used for players. Not currently used.
+#	NONE - Designation that this trainer type should not be used for anything by the generator.
+# By default, if a trainer type has no data in this file, it will pick a class of "NONE". However, 
+# if it has no entry in this file but has a corresponding file in the "trainerpokemon" folder, 
+# it will instead take a default type of TRAINER.
+#----------------------------------------------------------------------------------------------------                    
+0,1,100,PLAYER
+1,1,100,PLAYER
+2,1,100,PLAYER
+3,1,100,PLAYER
+4,1,100,RIVAL
+5,1,100,RIVAL
+6,1,100,TRAINER
+7,1,100,TRAINER
+8,1,100,TRAINER
+9,1,100,TRAINER
+10,1,100,TRAINER
+11,1,100,TRAINER
+12,1,100,TRAINER
+13,1,100,TRAINER
+14,1,100,TRAINER
+15,1,100,TRAINER
+16,1,100,TRAINER
+17,1,100,TRAINER
+18,1,100,TRAINER
+19,1,100,TRAINER
+20,1,100,TRAINER
+21,1,100,TRAINER
+22,1,100,TRAINER
+23,1,100,TRAINER
+24,1,100,PROFESSOR
+25,1,100,TRAINER
+26,1,100,TRAINER
+27,1,100,TRAINER
+28,1,100,TRAINER
+29,1,100,TRAINER
+30,1,100,TRAINER
+31,1,100,TRAINER
+32,1,100,TRAINER
+33,1,100,TRAINER
+34,1,100,TRAINER
+35,1,100,TRAINER
+36,1,100,TRAINER
+37,1,100,TRAINER
+38,1,100,TRAINER
+39,1,100,TRAINER
+40,1,100,TRAINER
+41,1,100,TRAINER
+42,1,100,TRAINER
+43,1,100,TRAINER
+44,1,100,TRAINER
+45,1,100,SWIMMING
+46,1,100,SWIMMING
+47,1,100,TRAINER
+48,1,100,TRAINER
+49,1,100,SWIMMING
+50,1,100,SWIMMING
+51,1,100,DOUBLE
+52,1,100,DOUBLE
+53,1,100,DOUBLE
+54,1,100,DOUBLE
+55,1,100,DOUBLE
+56,1,100,GRUNT
+57,1,100,GRUNT
+58,1,100,BOSS
+59,1,100,LEADER
+60,1,100,LEADER
+61,1,100,LEADER
+62,1,100,LEADER
+63,1,100,LEADER
+64,1,100,LEADER
+65,1,100,LEADER
+66,1,100,LEADER
+67,1,100,ELITEFOUR
+68,1,100,ELITEFOUR
+69,1,100,ELITEFOUR
+70,1,100,ELITEFOUR
+71,1,100,CHAMPION
+

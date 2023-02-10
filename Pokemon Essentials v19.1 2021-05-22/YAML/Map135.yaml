@@ -1,0 +1,2194 @@
+--- !ruby/object:RPG::Map
+autoplay_bgm: false
+autoplay_bgs: false
+bgm: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+bgs: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+data: !ruby/object:Table
+  dim: 3
+  x: 48
+  y: 192
+  z: 3
+  data:
+  - 01e1 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01f6 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1172 1172 1172 1172 1172 1172 00d8 004c 004c 004c 004c 00e2 00e4 004c 004c 004c 004c 004c 004c 004c 004c 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1172 1172 1172 1172 1172 1172 00c2 00d4 00d4 00d4 00d4 00c1 00d8 004c 004c 004c 004c 004c 004c 004c 004c 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 117a 116e 1172 1172 1172 1172 1172 1172 1172 1172 1172 1172 00c2 00e4 004c 004c 004c 004c 004c 004c 004c 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 116e 116c 117a 116e 1172 1172 1172 1172 1172 1172 1172 00c2 00d4 00d4 00e4 004c 004c 004c 004c 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 1179 116e 1172 1172 1172 1172 1172 1172 1172 1172 1172 00c2 00e4 004c 004c 004c 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 1179 117a 116e 1172 1172 1172 1172 1172 1172 1172 1172 00d8 004c 004c 004c 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 1179 117a 116e 1172 1172 1172 1172 1172 1172 00d8 004c 004c 004c 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 1171 1172 1172 1172 1172 1172 1172 00c2 00e4 004c 004c 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 1179 117a 116e 1172 1172 1172 1172 1172 00d8 004c 004c 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 117a 116e 1172 1172 1172 00c2 00d4 00e4 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 116e 1172 1172 1172 1172 00c2 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1172 1172 1172 1172 1172 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1169 116a 116a 116a 116a 116a 116a 117e 117c 116a 116a 116b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 117a 116e 1172 1172 1172 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1171 116c 117a 117a 117a 117a 117a 117a 117a 117a 116e 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 117a 116e 1172 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 0393 0393 0393 0393 0393 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 116e 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1179 117b 0393 0393 0393 0393 0393 0393 0393 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01e4 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 0393 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 1171 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 01ea 01ea 01ea 01ea 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1171 1173 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1171 1173 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1171 1173 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1171 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1169 116a 116a 117e 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 116c 117a 117a 117b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 1171 1173 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 1171 1173 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 1171 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 01ea 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 1169 116f 117b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1169 116a 116a 116f 117b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 116c 117a 117b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1169 116f 117b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1169 116f 117b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 0393 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 0393 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 0393 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 01ea 01ea 0393 0393 0393 0393 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 01ea 01ea 0393 0393 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 0393 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1171 1173 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 117c 116a 116a 116b 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1179 117a 117a 116e 1173 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 0393 0393 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 01ea 01ea 01ea 0393 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 0393 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 0393 0393 0393 1171 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 1177 116a 116a 116a 116b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 0393 01ea 1179 117a 117a 116e 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 117c 116a 116b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1172 1172 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 116c 117a 117b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 1169 116a 116a 116a 116a 116a 116a 116a 116a 116a 116a 116a 117e 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 01ea 01ea 01ea 01ea 1171 116c 117a 117a 117a 117a 117a 117a 117a 117a 117a 117a 117a 117b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 0393 1169 116a 116a 117e 1173 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 116c 117a 117a 117b 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 0393 0393 0393 0393 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 0393 0393 0393 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 1171 1173 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 1171 1173 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 1171 1173 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 0393 1171 117c 116a 116a 116a 116a 116a 116a 116a 116a 116b 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 117a 117a 117a 117a 117a 117a 117a 117a 116e 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 01ea 0393 0393 0393 0393 0393 0393 0393 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 0393 1171 1173 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 0393 1171 1173 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 0393 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 0393 0393 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 0393 0393 0393 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 0393 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 0393 0393 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1171 1173 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 
+  - 01f1 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01e6 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 1179 117b 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01e4 01f2 01f2 01f2 01f2 01f2 01f2 01f3 
+  - 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02ef 0142 0144 0000 0000 0000 0000 0000 0000 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02fe 02ef 02ef 02ef 02ef 02f7 02f7 0148 0146 0000 0000 0000 0000 0000 0000 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02f7 02f7 02f7 02f7 02f7 02ef 0144 0000 0000 0000 0000 0000 0000 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02ff 02f7 02f7 02f7 02f7 02ef 02ef 02ef 0000 0000 0000 0000 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 02fe 0000 0000 0000 0000 0000 02ef 02f7 02fe 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 02ff 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0306 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02fe 0000 0000 0000 0000 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 02ef 02f7 02f7 02f7 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02fe 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 02f7 02f7 02ff 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0306 02ff 02ff 0306 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02fe 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0306 0306 0000 0000 0000 0000 0000 02ef 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02ef 02ef 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 02fe 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02fe 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0306 02ff 02ff 02ff 02ff 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 038b 0000 0000 0000 0306 0306 0306 0306 02ff 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0306 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 038b 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 0306 0306 0306 0306 0306 0306 0306 0306 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 0490 04d8 04d9 04d9 04d9 04d9 04da 0492 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 0498 02ef 02ef 02ef 02ef 02ef 02ef 049a 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 02ff 02ff 02ff 02ff 02f7 038b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 0498 02f7 02f7 02f7 02f7 02f7 02f7 049a 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0306 0306 0306 0306 0306 02ff 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0498 02f7 02f7 02f7 02f7 02f7 02f7 049a 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0490 04d8 04d9 04d9 04d9 04d9 04d9 04d9 04d9 02f7 02f7 02f7 02f7 02f7 02f7 049a 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0498 0000 0000 0000 0000 0000 0000 0000 038b 02ff 02f7 02f7 02f7 02f7 02f7 049a 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0498 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 049a 02ff 02ff 02ff 02ff 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 02ef 02ef 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0498 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 049a 0306 0306 0306 0306 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0490 04d8 04d9 04d9 04d9 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 04d9 04d9 04d9 04d9 04d9 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0498 0000 0000 0000 02ef 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02ef 02ef 02ef 02ef 02ef 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0498 0000 0000 02fe 02f7 02f7 02f7 02f7 02f7 02ef 02ef 02ef 02fe 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 02ff 02f7 02f7 02f7 0000 0000 0498 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0306 0306 02f7 02f7 02f7 02ef 0000 0498 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 02ff 02ff 0306 0000 0000 0000 02ff 02f7 02f7 02f7 0000 0498 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02ff 02ff 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0306 0306 0306 0000 0000 0000 0000 0306 02ff 02ff 02ff 0000 0498 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 0306 0306 0306 0306 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 0306 0000 0498 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 04d9 04d9 04da 0492 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0490 04d8 04d9 04d9 04d9 04d9 04d9 04d9 04d9 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02ef 02ef 02ef 049a 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 02ef 0498 02ef 02ef 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 049a 02ff 02ff 02ff 02ff 02ff 02ff 0000 0000 0000 0000 02fe 02ff 0498 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 049a 0306 0306 0306 0306 0306 0306 0000 0000 0000 0000 0306 0306 0498 02ff 02ff 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 0306 0306 02ff 02ff 02ff 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0306 0306 0306 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02fe 02f7 02f7 02f7 02ff 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02ff 02ff 0306 0306 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 0306 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 02ef 02ef 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 02ef 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 02fe 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0306 02ff 02ff 02fe 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0306 0306 0306 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02fe 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 02ff 02ff 02ff 02ff 0306 0000 0000 0000 0000 0000 0000 02ef 02ef 02ef 02ef 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0306 0306 0306 0306 0306 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 02fe 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 02ff 0000 0000 0306 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0306 0306 0000 0000 0000 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02f7 02f7 02fe 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02ff 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 038b 02ff 02ff 0306 0306 0306 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 02ef 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 0000 0000 0000 0306 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 02ff 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0306 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 02f7 02f7 02f7 02f7 0000 0000 0000 02ef 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 02ff 02ff 02ff 02ff 0000 0000 02ef 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02fe 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0306 0306 0306 0306 0000 0000 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 0000 0000 0000 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02ff 02ff 02ff 02ff 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 0000 0000 0000 02ff 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 0306 0306 0306 0306 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 0000 0000 0000 0306 02f7 02f7 02f7 02ef 02ef 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 04d9 04d9 04da 0492 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02ef 02ef 02ef 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02fe 02fe 02fe 049a 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 0000 02ef 02f7 02f7 02f7 02ef 02ef 0000 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0306 02ff 02f7 02f7 02f7 02f7 02ef 02fe 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 0306 0306 0306 049a 02f7 02f7 02f7 02f7 02ff 02ff 02ff 02ff 02ef 02f7 02f7 02f7 02ff 02ff 02ff 02fe 02ff 02ff 02ff 02ff 02ff 0000 0000 0000 0000 0000 0306 02ff 02f7 02f7 02f7 02ff 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 04a1 04a1 04a1 04a2 02f7 02f7 02f7 02f7 0306 0306 0306 0306 02f7 02f7 02f7 02f7 0306 0306 0306 0306 0306 0306 0306 0306 0306 0000 0000 0000 0000 0000 0000 0306 02ff 02ff 02ff 0306 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02ef 02ef 02ef 02ef 02f7 02f7 02f7 02f7 0490 04d8 04da 0492 02f7 02f7 02f7 02f7 0490 04d8 04d9 04d9 04d9 04d9 04da 0492 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 0306 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0498 02ef 02ef 049a 02f7 02f7 02f7 02f7 0498 02ef 02ef 02ef 02ef 02ef 02fe 049a 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 0498 02f7 02f7 049a 02ff 02ff 02ff 02ff 0498 02f7 02f7 02f7 02f7 02f7 0306 049a 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 0306 0306 0306 0306 0306 0306 0306 0306 0498 02f7 02f7 049a 0306 0306 0306 0306 0498 02ff 02f7 02f7 02f7 02f7 0000 049a 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 02f7 02f7 04d9 04d9 04d9 04d9 04d9 04d9 0306 02ff 02ff 02f7 02f7 02ef 04d9 04d9 04d9 04da 0492 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02fe 02fe 02fe 02fe 02fe 02ef 02ef 02ef 02ef 02f7 02f7 02ef 02ef 02ef 02ef 02fe 038b 0000 0306 0306 02f7 02f7 02f7 02ef 0000 0000 0000 049a 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 0306 0306 0306 0306 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 0306 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02ef 0000 0000 049a 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 04a1 04a1 04a1 04a1 04a9 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 0306 0306 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02ef 0000 049a 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02ef 02ef 02ef 02ef 0498 02f7 02f7 02f7 02f7 02f7 02ff 0306 0306 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02ef 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04da 0492 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 0498 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 0000 0000 0000 0000 02ef 02ef 049a 02ef 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 0498 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 02f7 02f7 049a 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 
+  - 02f7 02f7 02f7 02f7 0498 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02fe 0000 0000 0000 02ff 02f7 049a 0306 0306 0306 0306 0306 0306 0306 0306 0306 0306 0306 0306 
+  - 02f7 02f7 02f7 02f7 0498 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 02ef 0000 0000 0000 0000 02fe 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0306 02f7 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 04d9 
+  - 02f7 02f7 02f7 02f7 0498 02ff 02ff 02ff 02ff 0000 0000 0000 0000 02fe 02f7 02ef 02ef 0000 0000 0306 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 0306 0000 0000 0000 0000 0000 02ff 02fe 02fe 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 
+  - 02f7 02f7 02f7 02f7 0498 0306 0306 0306 0306 038b 0000 0000 0000 0306 02ff 02f7 02f7 02ef 0000 0000 0306 0306 0306 0306 0306 0306 0306 0306 0000 0000 0000 0000 0000 0000 0306 0306 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 04a0 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a9 0000 0306 02ff 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 04a8 04a1 04a1 04a1 04a1 04a9 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02ef 02ef 02ef 02ef 02ef 0000 0000 0000 0498 0000 0000 0306 02ff 02ff 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 049a 0000 0000 02ef 02ef 0498 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0498 0000 0000 0000 0306 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 049a 0000 0000 02f7 02f7 0498 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0498 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 049a 0000 0000 02f7 02f7 0498 0306 0306 0306 0306 0306 0306 0306 0306 0306 0306 0306 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 04a0 04a1 04a1 04a1 04a9 0000 0000 04a8 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a2 0000 02ef 02f7 02f7 04a0 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a1 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0498 0000 0000 049a 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0498 0000 0000 049a 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0498 0000 0000 049a 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 04a0 04a1 04a1 04a2 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02ef 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02ff 02fe 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 0306 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 038b 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 02fe 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 0306 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0306 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02ff 0306 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 0000 0000 0306 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 02ef 02ef 02ef 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02ff 02ff 02ff 02ff 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 0306 0306 0306 0306 0306 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 04a8 04a1 04a1 04a1 04a1 04a9 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f7 02f7 02f7 049a 02ef 02ef 02ef 02ef 0498 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 02fe 02ff 02ff 02ff 049a 02f7 02f7 02f7 02f7 0498 02ff 02ff 02ff 02ff 02ff 02ff 02ff 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 02ef 02ef 02ef 02ef 0306 0306 0306 0306 049a 02f7 02f7 02f7 02f7 0498 0306 0306 0306 0306 0306 0306 0306 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 02fe 02f7 02f7 02f7 02f7 04a8 04a1 04a1 04a1 04a2 02f7 02f7 02f7 02f7 04a0 04a1 04a1 04a1 04a1 04a1 04a1 04a1 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 049a 02ef 02ef 02ef 02ef 02f7 02f7 02f7 02f7 02ef 02ef 02ef 02ef 02ef 02ef 02ef 02ef 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02ff 02ff 02ff 049a 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 0306 0306 049a 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 04a8 04a1 04a1 04a1 04a2 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 049a 0000 038b 0000 038b 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 049a 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 0000 0000 02ef 038b 0000 0000 0000 0000 0000 0000 0000 049a 0000 0000 0000 0000 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ef 02ef 02f7 04a8 04a1 04a1 04a1 04a1 04a1 04a1 04a1 04a2 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 049a 02ef 02fe 0000 0000 0000 0000 0000 0000 0000 0000 02ef 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 02ff 02ff 049a 02f7 0306 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 0306 0306 0306 0306 049a 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02ff 02ff 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 04a8 04a1 04a1 04a1 04a2 02f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 0306 0306 0306 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 049a 02ef 02ef 02ef 02ef 02f7 02ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 02ff 02ff 02ff 02ff 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02ff 02ff 02ff 02ff 049a 02f7 02f7 02f7 02f7 02f7 02ff 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02ff 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 02f7 
+  - 0306 0306 0306 0306 0306 02ff 02ff 02ff 02ff 02ff 02ff 0306 0306 0306 0306 049a 02ff 02ff 02ff 02ff 02ff 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 02ff 
+  - 04a1 04a1 04a1 04a1 04a9 0306 0306 0306 0306 0306 0306 04a8 04a1 04a1 04a1 04a2 0306 0306 0306 0306 0306 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0306 0306 0306 0306 0306 0306 0306 0306 0306 0306 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 0000 0000 02f6 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0481 0482 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0480 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0483 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0484 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0481 0482 0000 02f6 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 02f6 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0480 0000 0000 02f6 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0483 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0484 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 02f6 02f6 02f6 02f6 02f6 0000 0481 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 02f6 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 02f6 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 02f6 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 0000 0000 02f6 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0481 0488 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 048b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 048c 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0481 0482 0000 02f6 02f6 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 02f6 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0488 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 048b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 048b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 048c 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0489 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0488 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 048c 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0489 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 0000 0000 0000 0000 02f6 02f6 02f6 02f6 02f6 02f6 02f6 02f6 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 0000 0000 0489 048a 0000 0000 0000 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02f6 02f6 02f6 02f6 0000 02f6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+  - 036e 036e 036e 036e 0000 036e 036e 036e 036e 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 036e 036e 036e 036e 036e 036e 036e 036e 
+encounter_list: []
+encounter_step: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: Item
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: Object ball
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'Kernel.pbItemBall(:MOONSTONE)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: true
+      trigger: 0
+      walk_anime: true
+    x: 11
+    y: 118
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: Item
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: Object ball
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'Kernel.pbItemBall(:DUBIOUSDISC)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: true
+      trigger: 0
+      walk_anime: true
+    x: 25
+    y: 38
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: Item
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: Object ball
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'Kernel.pbItemBall(:ELECTIRIZER)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: true
+      trigger: 0
+      walk_anime: true
+    x: 20
+    y: 149
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: Item
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: Object ball
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'Kernel.pbItemBall(:RAZORCLAW)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: true
+      trigger: 0
+      walk_anime: true
+    x: 33
+    y: 102
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_TUBER_F
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:TUBER_F)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:TUBER_F,"Mariam",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_TUBER_F
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 29
+    y: 169
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_COOLTRAINER_M
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COOLTRAINER_M)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COOLTRAINER_M,"Bryson",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_COOLTRAINER_M
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 23
+    y: 121
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_BUGCATCHER
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:BUGCATCHER)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BUGCATCHER,"Tate",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_BUGCATCHER
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 14
+    y: 137
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_CRUSHGIRL
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:CRUSHGIRL)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:CRUSHGIRL,"Promise",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_CRUSHGIRL
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 17
+    y: 180
+  9: !ruby/object:RPG::Event
+    id: 9
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_POKEMONBREEDER
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:POKEMONBREEDER)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:POKEMONBREEDER,"Aurelia",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_POKEMONBREEDER
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 22
+    y: 175
+  10: !ruby/object:RPG::Event
+    id: 10
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_GENTLEMAN
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:GENTLEMAN)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:GENTLEMAN,"Parker",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_GENTLEMAN
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 19
+    y: 60
+  11: !ruby/object:RPG::Event
+    id: 11
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_YOUNGSTER
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:YOUNGSTER)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:YOUNGSTER,"Harold",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_YOUNGSTER
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 29
+    y: 106
+  12: !ruby/object:RPG::Event
+    id: 12
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_BLACKBELT
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:BLACKBELT)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLACKBELT,"Donald",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_BLACKBELT
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 12
+    y: 160
+  13: !ruby/object:RPG::Event
+    id: 13
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_TAMER
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:TAMER)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:TAMER,"Bronson",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_TAMER
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 25
+    y: 70
+  14: !ruby/object:RPG::Event
+    id: 14
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_CAMPER
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:CAMPER)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:CAMPER,"Bryan",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_CAMPER
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 23
+    y: 167
+  15: !ruby/object:RPG::Event
+    id: 15
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_PSYCHIC_F
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:PSYCHIC_F)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:PSYCHIC_F,"Marley",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_PSYCHIC_F
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 23
+    y: 124
+  16: !ruby/object:RPG::Event
+    id: 16
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_PAINTER
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:PAINTER)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:PAINTER,"Harmony",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_PAINTER
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 28
+    y: 14
+  17: !ruby/object:RPG::Event
+    id: 17
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_AROMALADY
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:AROMALADY)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:AROMALADY,"Arabella",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_AROMALADY
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 28
+    y: 182
+  18: !ruby/object:RPG::Event
+    id: 18
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_SUPERNERD
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:SUPERNERD)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:SUPERNERD,"Kelvin",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_SUPERNERD
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 14
+    y: 156
+  19: !ruby/object:RPG::Event
+    id: 19
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_SWIMMER_F
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:SWIMMER_F)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:SWIMMER_F,"Mira",_I("Aww, I lost."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainer_SWIMMER_F
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI tried my best. I have no regrets.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 33
+    y: 43
+height: 192
+tileset_id: 25
+width: 48

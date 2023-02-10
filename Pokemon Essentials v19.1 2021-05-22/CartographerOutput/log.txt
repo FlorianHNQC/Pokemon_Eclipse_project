@@ -1,0 +1,38 @@
+Unrecognized evolution method "NONE", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "NONE", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "NONE", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "HAPPINESSMOVETYPE", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "NONE", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "NONE", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "NONE", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "LEVELDARKINPARTY", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "LEVELDAY", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "LEVELNIGHT", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "LEVELRAIN", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "LEVELDAY", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "LEVELDAY", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "LEVELDAY", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "LEVELNIGHT", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "ITEMCANDY", this evolution will be skipped (this will not affect any generation).
+Undefined move "TAUNT" in defining move-based evolution for Clobbopus. Default will be used.
+Unrecognized evolution method "ITEMALCREMIE", this evolution will be skipped (this will not affect any generation).
+Unrecognized evolution method "KUBFU", this evolution will be skipped (this will not affect any generation).
+Generating with seed: 1676037345397
+Generating with seed: 5
+Generating with seed: 5
+Generating with seed: 5
+Generating with seed: 5
+Possible path connection failure detected on null. May need manual edits to address.
+Possible path connection failure detected on null. May need manual edits to address.
+Generating with seed: 5
+Generating with seed: 10
+Possible path connection failure detected on null. May need manual edits to address.
+Possible path connection failure detected on null. May need manual edits to address.
+Generating with seed: 8
+Generating with seed: 20
+Generating with seed: 21
+Generating with seed: 40
+Generating with seed: 40
+Generating with seed: 40
+Generating with seed: 40
+Possible path connection failure detected on null. May need manual edits to address.
