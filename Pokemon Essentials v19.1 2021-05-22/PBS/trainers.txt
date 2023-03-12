@@ -117,12 +117,23 @@ Pokemon = CHARIZARD,63
 Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
 #-------------------------------
-[POKEMON_TRAINER_KAYO,Kayo]
+[POKEMON_TRAINER_KAYO,Kayo,1]
 LoseText = "Je suppose que perdre mon premier combat contre toi n'est pas si grave."
 Pokemon = CHESPIN,5
     Moves = GROWL,TACKLE
     AbilityIndex = 1
 #-------------------------------
-[REHIO,Rehio]
-LoseText = "Waouh! T'es un cas toi!"
-Pokemon = MAREEP,11
+[KAYO1,Kayo,1]
+LoseText = "No need actually"
+Pokemon = CHESPIN,5
+    Moves = GROWL,VINEWHIP
+    AbilityIndex = 1
+#-------------------------------
+[REHIO1,Rehio,1]
+LoseText = "Waouh! Vous êtes des cas vous!"
+Pokemon = MAREEP,5
+#-------------------------------
+[MIRA1,Mira,1]
+LoseText = "Quesque...?"
+Pokemon = AZURILL,5
+#-------------------------------
