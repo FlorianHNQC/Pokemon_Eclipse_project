@@ -129,11 +129,11 @@ Pokemon = CHESPIN,5
     Moves = GROWL,VINEWHIP
     AbilityIndex = 1
 #-------------------------------
-[REHIO1,Rehio,1]
+[REHIO1,Rehio]
 LoseText = "Waouh! Vous êtes des cas vous!"
 Pokemon = MAREEP,5
 #-------------------------------
-[MIRA1,Mira,1]
+[MIRA1,Mira]
 LoseText = "Quesque...?"
 Pokemon = AZURILL,5
 #-------------------------------

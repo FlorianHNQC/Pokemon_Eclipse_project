@@ -73,7 +73,7 @@
 70,ELITEFOUR_Lance,Elite Four,100,Battle Elite,Battle victory leader,,Male,,
 71,CHAMPION,Champion,100,Battle Elite,Battle victory leader,,Male,,
 72,POKEMON_TRAINER_KAYO,,8,,,,Female,,
-73,REHIO1,,20,Think Before You Act - Alhaitham,,,Male,,
+73,REHIO1,Rival,20,Think Before You Act - Alhaitham,,,Male,,
 74,KYRIE1,Rivale,60,,,,Female,,
 75,MIRA1,Rivale,20,,,,Female,,
 76,KAYO1,Rivale,20,Letter From Ajax,,,Female,,
