@@ -119,6 +119,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 HealingSpot = 22,8,22
+Weather = Rain,10
 SnapEdges = true
 #-------------------------------
 [023]
@@ -409,7 +410,7 @@ MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
 [077]
-# Laboratiore
+# Labo secret
 #-------------------------------
 [083]
 # road
