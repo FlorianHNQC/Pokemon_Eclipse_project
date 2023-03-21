@@ -119,8 +119,9 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 HealingSpot = 22,8,22
-Weather = Rain,10
-SnapEdges = true
+Weather = Rain,1
+MapPosition = 0,4,3
+SnapEdges = false
 #-------------------------------
 [023]
 # Lerucean Town
@@ -411,6 +412,12 @@ BattleBack = city
 #-------------------------------
 [077]
 # Labo secret
+#-------------------------------
+[078]
+# Route 106
+Outdoor = true
+ShowArea = true
+SnapEdges = false
 #-------------------------------
 [083]
 # road
