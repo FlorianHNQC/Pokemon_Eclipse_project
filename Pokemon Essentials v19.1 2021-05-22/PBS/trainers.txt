@@ -137,3 +137,6 @@ Pokemon = MAREEP,5
 LoseText = "Quesque...?"
 Pokemon = AZURILL,5
 #-------------------------------
+[TRCHAR095,Ben]
+LoseText = "Vous auriez juste pu dire non!"
+Pokemon = KRICKETOT,6

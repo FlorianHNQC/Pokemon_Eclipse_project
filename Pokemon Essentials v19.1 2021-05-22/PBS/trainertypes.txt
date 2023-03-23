@@ -77,3 +77,4 @@
 74,KYRIE1,Rivale,60,,,,Female,,
 75,MIRA1,Rivale,40,,,,Female,,
 76,KAYO1,Rivale,40,Letter From Ajax,,,Female,,
+77,TRCHAR095,Maid,25,,,,Male,,
