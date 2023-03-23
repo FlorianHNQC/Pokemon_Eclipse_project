@@ -290,3 +290,19 @@ Land,21
     10,PIKACHU,11,14
     10,SANDSHREW_1,11,14
     10,VULPIX_1,11,14
+#-------------------------------
+[078] # Route 106
+Land,21
+    30,STARLY,2,5
+    18,DUNSPARCE,2,6
+    15,GRUBBIN,2,4
+    15,KRICKETOT,2,3
+    10,DEERLING,3,4
+    2,CHIKORITA,2,3
+LandNight,21
+    20,VULLABY,2,3
+    20,GRUBBIN,3
+    18,DUNSPARCE,2,6
+    15,KRICKETOT,3
+    20,ROOKIDEE,3,4
+    2,GOOMY,2
